@@ -7,11 +7,174 @@
 /*-----------------------------*\
   common styles and utilities
 \*-----------------------------*/
-body{
+*{
     margin:0;
     padding:0;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Manrope', sans-serif;
+     
+}
+body{
+    background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+/*----------------------------*\
+  header design starts here
+\*----------------------------*/
+.primary-button{
+    outline: 0;
+    border:0;
+    padding: 10px 24px 10px 24px;
+    background-color:#E02C6D;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 7px 0 #a5075e;
+    position: relative;
+    top:0;
+}
+.primary-button:active{
+    top:5px;
+    box-shadow: 0 2px 0 #a5075e;;
+}
+.fa-arrow-right{
+    color:#FFFFFF;
+}
+header{
+   
+    margin-top:50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.title{
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.navigation{
+    display: flex;
+   
+}
+.navigation li{
+    list-style: none;
+    margin:10px;
+    
+    
+}
+.navigation li a{
+    text-decoration: none;
+    color:#3A3A3A;
+    font-size: 1em;
+    cursor:pointer;
+    font-weight: 400;
+    padding:5px 5px;
+
+}
+.banner{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+   
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-left h1{
+   font-family: Poppins;
+   font-weight: 700;
+   font-size: 2em; 
+}
+.banner-left p{
+    font-family: Poppins;
+    font-size: 16px;
+    color:#3A3A3A;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin:20px 0;
+
+}
+
+
+.banner-right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-right img{
+    width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h6{
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* color:#FFFFF; */
+
+}
+#footers-para {
+    font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#D9DBE1;
+
+}
+
+footer{
+    position: absolute;
+width: 262px;
+height: 139px;
+left: 589px;
+top: 3117px;
+}
+
