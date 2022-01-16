@@ -70,8 +70,10 @@ nav{
     line-height: 36px;
     letter-spacing: 0px;
     text-align: left;
+    
 
 }
+
 .navigation{
     display: flex;
 }
@@ -137,6 +139,8 @@ nav{
 .section-title{
     text-align: center;
 }
+
+
 .section-title h2 {
     font-family: Poppins;
     font-size: 28px;
@@ -354,7 +358,7 @@ h6{
 /*------------------------*\
  mobile devices
 \*------------------------*/
-  @media only  screen and (max-width:688px) {
+  @media only screen and (max-width:688px) {
     .container{
         width:100%;
         
@@ -370,6 +374,7 @@ h6{
         align-items: center;
         
     }
+   
     .products-item{
         display: flex;
         flex-direction: column;
@@ -386,6 +391,7 @@ h6{
     letter-spacing: 0px;
     text-align: left;
 }
+
 .banner-left h1{
     font-family: Poppins;
     font-weight: 500;
