@@ -269,7 +269,7 @@ nav{
 .dotted-hr {
     border: dotted 6px #E02C6D ;
     border-bottom: none;
-    margin:20px auto;
+    margin:5px auto;
     width:70px;
 }
 
@@ -292,7 +292,7 @@ nav{
     border:none;
     border-radius:5px;
     resize: none;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .contact-us button {
     border:none;
@@ -310,13 +310,12 @@ nav{
 \*-------------------------------------------------*/
 
 
-footer {
+.footer-section {
     background-color: #120E43;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 h6{
     font-family: Poppins;
