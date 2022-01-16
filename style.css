@@ -40,6 +40,11 @@ body{
     position: relative;
     top:0;
 }
+.primary-button a {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
 .primary-button:hover{
     top:5px;
     box-shadow: 0 2px 0 #a5075e;;
@@ -251,6 +256,9 @@ nav{
     cursor: pointer;
    
 }
+.see-more-btn a{
+    text-decoration: none;
+}
 .fa-arrow-right.seemore-arrow{
     color:#E02C6D;
 }
@@ -268,7 +276,7 @@ nav{
 .contact-us {
     padding:1% 7%;
     text-align:center;
-    background-color:#35BDD0;
+    background-color:#CAD5E2;
     margin-top:50px;
     margin-bottom: 80px;
     
@@ -302,26 +310,19 @@ nav{
 
 
 
-
+/*--------------------------------------------------*\
+ footer section design starts here
+\*-------------------------------------------------*/
 
 
 footer {
     background-color: #120E43;
-}
-
-.footer-area{
-    width: 262px;
-    height: 139px;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    
     
 }
-
 h6{
     font-family: Poppins;
     font-size: 24px;
@@ -340,11 +341,20 @@ h6{
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
-    text-align: right;
+    text-align: center;
     color:#D9DBE1;
    
 
 }
+.contact-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link{
+    color:#FFFFFF;
+}
+
 
 
 
