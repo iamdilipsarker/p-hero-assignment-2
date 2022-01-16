@@ -254,7 +254,47 @@ nav{
 .fa-arrow-right.seemore-arrow{
     color:#E02C6D;
 }
+/*--------------------------------------------------*\
+ contact us section design starts here
+\*-------------------------------------------------*/
+.dotted-hr {
+    border: dotted 6px #E02C6D ;
+    border-bottom: none;
+    margin:20px auto;
+    width:70px;
+}
 
+
+.contact-us {
+    padding:1% 7%;
+    text-align:center;
+    background-color:#35BDD0;
+    margin-top:50px;
+    margin-bottom: 80px;
+    
+
+}
+.contact-us textarea, input {
+    width:100%;
+    padding:20px;
+    font-size:1rem;
+    font-family: inherit;
+    text-align: center;
+    border:none;
+    border-radius:5px;
+    resize: none;
+    margin-top: 5px;
+}
+.contact-us button {
+    border:none;
+    border-radius:5px;
+    background-color: #E02C6D;
+    padding:10px 12px;
+    color:white;
+    cursor: pointer;
+    margin: 10px;
+    width:100px;
+}
 
 
 
@@ -306,11 +346,5 @@ h6{
 
 }
 
-/* footer{
-    position: absolute;
-width: 262px;
-height: 139px;
-left: 589px;
-top: 3117px;
-} */
+
 
