@@ -74,7 +74,6 @@ nav{
 }
 .navigation{
     display: flex;
-   
 }
 .navigation li{
     list-style: none;
@@ -349,6 +348,106 @@ h6{
 .social-link{
     color:#FFFFFF;
 }
+/*-----------------------------------*\
+ responsive css design starts here
+\*----------------------------------*/
+/*------------------------*\
+ mobile devices
+\*------------------------*/
+  @media only  screen and (max-width:688px) {
+    .container{
+        width:100%;
+        
+    }
+    .navigation{
+        visibility: hidden;
+    }
+    .products-items{
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .products-item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.title{
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.banner-left h1{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 2em;
+}
+.section-title h2 {
+    margin-right: 50px;
+    margin-bottom: 20px;
+} 
+.see-more-area{
+    margin-right: 40px;
+}
+/*------------------------*\
+ tablet devices
+\*------------------------*/
+
+@media only  screen and (min-width:689px) and (max-width:992px) {
+    .container{
+        width:100%;
+        
+    }
+    .navigation{
+        visibility: hidden;
+    }
+    .products-items{
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .products-item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.title{
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.banner-left h1{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 2em;
+}
+.section-title h2 {
+    margin-right: 50px;
+    margin-bottom: 20px;
+} 
+.see-more-area{
+    margin-right: 40px;
+}
+
+
 
 
 
